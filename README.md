@@ -18,4 +18,8 @@
 
 5. ローカルリポジトリの変更を宣言するためのコマンド```git add lecture02.md```を実行します。
 
-6. ローカルリポジトリの変更を決定するためのコマンド```git commit -m "Added my learning in lecture02.md"```を実行します。
+6. ローカルリポジトリの変更を決定するためのコマンド```git commit -m "Added my learning in lecture02.md"```を実行します。```"Added my learning in lecture02.md"```の部分はこのコミットが何の目的で変更されたのかを書く説明書き。
+
+7. リモートリポジトリにプッシュするためのコマンド```git push origin lecture02``` を実行します。
+
+8. 
