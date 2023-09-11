@@ -20,7 +20,7 @@
 
 6. ローカルリポジトリの変更を決定するためのコマンド```git commit -m "Added my learning in lecture02.md"```を実行します。```"Added my learning in lecture02.md"```の部分はこのコミットが何の目的で変更されたのかを書く説明書きの部分です。
 
-7. リモートリポジトリにプッシュするためのコマンド```git push origin lecture02``` を実行します。
+7. リモートリポジトリにプッシュするためのコマンド```git push origin [リポジトリ名]``` を実行します。
 
 8. GitHubのリポジトリのページから「Pull requests」タブ、「New Pull Request」ボタンをクリックします。ブランチの選択では、今回lecture02ブランチを使用したいので「lecture02」を選択します。「Create Pull Request」をクリックするとプルリクエストが完成します。
 
