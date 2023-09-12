@@ -26,11 +26,25 @@
 
 [^1]: リポジトリのURLがhttps://github.com/Hidetaka-Konishi/kadai_3.gitだった場合のリポジトリ名はkadai_3になる
 
-# コンフリクトの解決方法
+# コンフリクトを解消し、git pushするまでの流れ
 1. コンフリクトが発生しているファイルを特定するために```git status```を実行する。実行して開かれたメッセージに「Unmerged paths」という場所の「both added」にコンフリクトが発生しているファイル名が記載されている。
 2. Windowsのエクスプローラーを開き、コンフリクトを起こしているファイル名をエクスプローラーの検索欄から検索し、そのファイルをクリック、「Windowsを検索する」を選択する。
 3. 対象のファイルをテキストエディタで開いたらコンフリクトが発生している部分が以下のように示されている。
 
+```markdown
+<<<<<<< HEAD
+This is my change.
+=======
+This is the change from the remote.
+>>>>>>> origin/main
 ```
+
+仮に「This is my change.」の部分を採用したい場合は以下のように編集します。編集が終わったらファイルを保存することでコンフリクトが解消されます。
+
+```markdown
+This is my change.
 ```
-仮に「This is my change.」の部分を
+4. ```git add [追加したいファイル名]```を実行。
+5. ```git commit -m "任意のメッセージ"```を実行。
+6. ```git push origin [[リポジトリ名]]```を実行。
+
