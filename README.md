@@ -44,7 +44,7 @@ This is the change from the remote.
 ```markdown
 This is my change.
 ```
-4. ```git add [追加したいファイル名]```を実行。
+4. ```git add [ファイル名]```を実行。
 5. ```git commit -m "任意のメッセージ"```を実行。
-6. ```git push origin [[リポジトリ名]]```を実行。
+6. ```git push origin [リポジトリ名]```を実行。
 
