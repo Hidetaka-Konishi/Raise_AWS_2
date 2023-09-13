@@ -22,7 +22,7 @@
 
 7. リモートリポジトリにプッシュするためのコマンド```git push origin [ブランチ名]``` を実行します。
 
-8. GitHubのリポジトリのページから「Pull requests」タブ、「New Pull Request」ボタンをクリックします。ブランチの選択では、今回lecture02ブランチを使用したいので「lecture02」を選択します。「Create Pull Request」をクリックするとプルリクエストが完成します。
+8. GitHubのリポジトリのページから「Pull requests」タブ、「New Pull Request」ボタンをクリックします。ブランチの選択では、プルリクエストしたいブランチ名を選択します。「Create Pull Request」をクリックするとプルリクエストが完成します。
 
 [^1]: リポジトリのURLがhttps://github.com/Hidetaka-Konishi/kadai_3.gitだった場合のリポジトリ名はkadai_3になる
 
@@ -56,7 +56,7 @@ This is my change.
 5. ```git commit -m "任意のメッセージ"```を実行する。
 6. ```git push [リモートリポジトリのURL] [ブランチ名]```を実行する。
 
-# ローカルのスクショをリモートリポジトリのmdファイルに反映させる方法
+# ローカルのスクショをリモートリポジトリのmdファイルに反映させたプルリクエストをする方法
 1. GitHubで新しいリポジトリを作成します。
 2. ```git clone [リポジトリのURL]```を実行します。
 3. ```cd [リポジトリ名]```を実行し、クローンしたローカルリポジトリに移動します。そして、ブランチを作成するために```git checkout -b [ブランチ名]```を実行します。
@@ -66,4 +66,6 @@ This is my change.
 7.  ```git add .```を実行する。
 8.  ```git commit -m "任意のメッセージ"```を実行します。
 9.  ```git push origin [ブランチ名]``` を実行します。
+10. GitHubのリポジトリのページから「Pull requests」タブ、「New Pull Request」ボタンをクリックします。ブランチの選択では、プルリクエストしたいブランチ名を選択します。「Create Pull Request」をクリックするとプルリクエストが完成します。
+
 
