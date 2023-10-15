@@ -67,7 +67,3 @@ This is my change.
 8.  `git commit -m "任意のメッセージ"`を実行します。
 9.  `git push origin [ブランチ名]` を実行します。
 10. GitHubのリポジトリのページから「Pull requests」タブ、「New Pull Request」ボタンをクリックします。ブランチの選択では、プルリクエストしたいブランチ名を選択します。「Create Pull Request」をクリックするとプルリクエストが完成します。
-
-# Ubuntuで`git clone`から`git push`までの手順
-1. `git clone [リポジトリのURL]`を実行する。
-2. 
